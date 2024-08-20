@@ -25,7 +25,7 @@ public class root {
 
             } catch (Exception erro) { //Aqui está tratando sobre qualquer tipo de erro, a classe Exception é do tipo genérica de erro
                 System.out.println("Erro genérico!");
-            } finally {
+            } finally { //O "finally" será executado SEMPRE após cada 'try' e 'catch'. A única maneira de sair do "finally" é ter um bloco de execução dentro do 'try' ou 'catch' escrito "system.exit(0);", basicamente é como se fosse um "break" que impede que o finally seja executado
                 System.out.println("Saindo do Try/Catch..");
             }
         }
